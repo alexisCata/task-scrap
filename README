@@ -1,2 +1,19 @@
+Execute:
+
 . sc.sh
 venv/bin/python scrap.py
+
+usage: scrap.py [-h] [--refresh_time REFRESH_TIME] [--team TEAM]
+                [--use_proxy_bet365_paddy {yes,no}]
+                [--parallel_scrapping {yes,no}] [--version]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --refresh_time REFRESH_TIME
+                        Data refresh time
+  --team TEAM           Team to get data
+  --use_proxy_bet365_paddy {yes,no}
+                        Use proxy for Bet365 and PaddyPower (Default no)
+  --parallel_scrapping {yes,no}
+                        Scrap sites in parallel (Default yes)
+  --version             show program's version number and exit
